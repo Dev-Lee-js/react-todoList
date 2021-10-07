@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+ # To Do List PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align='center'>    
+<img width="500" alt="MainPage" src="https://dev-lee-js.github.io/portfolio/images/thumb_09.png">
+</p>
+<br>
 
-## Available Scripts
+### 🛠 Tech Stack
+* **Back**
+<p align='center'>            
+    <img src="https://img.shields.io/badge/node.js-v14.17.3-green?logo=Node.js"/>                        
+    <img src="https://img.shields.io/badge/npm-^6.14.13-orange?logo=npm">    
+</p>
 
-In the project directory, you can run:
+* **Front**
+<p align='center'>        
+    <img src="https://img.shields.io/badge/React-v17.0.1-blue?logo=React"/>   
+    <img src="https://img.shields.io/badge/styledcomponents-v5.3.1-purple?logo=styledcomponents"/>   
+    <img src="https://img.shields.io/badge/css-v3.0.0-brown?logo=css3"/>   
+    <img src="https://img.shields.io/badge/html-v5.0.0-red?logo=html5"/>   
+</p>
 
-### `npm start`
+### 🚀 React Deploy
+* **gh-pages build**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<hr />
+안녕하세요^^
 
-### `npm test`
+이 어플리케이션을 사용하기 위해선
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* " npm install "을 입력하여 프론트엔드 종속성을 다운받아주세요.
+* " npm run start "을 입력하여 실행하시면 됩니다.
 
-### `npm run build`
+## Install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run tests
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npm run start
+```
+<hr/>
 
-### `npm run eject`
+# Preview
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 📚 Website Main Page #1
+<img width="1100" alt="MainPage" src="https://raw.githubusercontent.com/Dev-Lee-js/portfolio/gh-pages/images/todoList-main-1.PNG">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 👉 [사이트 방문하기](https://dev-lee-js.github.io/react-todoList/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br />
+<br />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## ⚙️ Functions
 
-## Learn More
+### 할 일 등록 & 날짜 표시
+<img width="1100" alt="MainPage" src="https://dev-lee-js.github.io/portfolio/images/todoList-1.gif">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 할 일 완료 체크 & 할 일 삭제 & 할 일 갯수 카운팅
+<img width="1100" alt="MainPage" src="https://dev-lee-js.github.io/portfolio/images/todoList-2.gif">
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## File tree
 
-### Code Splitting
+<pre>
+│  App.css
+│  App.js
+│  App.test.js
+│  index.css
+│  index.js
+│  logo.svg
+│  reportWebVitals.js
+│  setupTests.js
+│  TodoContext.js
+│  TodoProvider.js
+│
+└─components
+        TodoCreate.js
+        TodoHead.js
+        TodoItem.js
+        TodoList.js
+        TodoTemplate.js
+</pre>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
